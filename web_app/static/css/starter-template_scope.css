@@ -1,0 +1,19 @@
+
+body {
+  padding-top: 50px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+  color: 'red';
+}
+body {
+    background-color: lightblue;
+}
+
+body {
+    background-image: url("/static/images/project_scope.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 95% 20%;
+}

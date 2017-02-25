@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="/static/favicon.ico">
+
+    <title>Starter Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="/static/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="/static/css/starter-template_scope.css" rel="stylesheet"  type="text/css">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <script src="/static/js/ie-emulation-modes-warning.js"></script>
+
+  </head>
+
+  <body>
+
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Fraud Detector 101</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav navbar-left">
+                  <li>
+                      <a style='color:grey' class="page-scroll" href="/">Home</a>
+                  </li>
+                  <li>
+                      <a style='color:grey' class="page-scroll" href="/scope">Scope</a>
+                  </li>
+                  <li>
+                      <a style='color:grey' class="page-scroll" href="/score">Score</a>
+                  </li>
+                  <li>
+                      <a style='color:grey' class="page-scroll" href="/predict">Predict</a>
+                  </li>
+              </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container" align=left>
+
+      <div class="starter-template">
+        <h1 align=left><u>Project Scope</u><br></h1>
+            <p align=left class="lead">
+
+            <b>Goal</b><br>
+            To accurately identify potential fraud cases for further investigation using<br>
+              machine learning.<br>
+            A created model will then be hosted on an app to detect fraud cases live.<br><br>
+
+            <b>Deliverables</b><br>
+            Deployed web app to predict fraud cases for further investigation as data<br>
+            comes in live.<br><br>
+
+            <b>Workflow</b><br>
+            Exploratory Data Analysis:
+            <h4><ul align=left>
+                Create training fraud labels
+            </ul>
+            <ul align=left>
+                Remove NANs
+            </ul>
+            <ul align=left>
+                Plot raw data
+            </ul>
+            <ul align=left>
+                Engineer features
+            </ul>
+            <ul align=left>
+                Implement NLP analysis
+            </ul>
+            <ul align=left>
+                Dropping features
+            </ul>
+
+            <h3 align=left>
+                Modeling:
+            </h3>
+            <h4><ul align=left>
+                Create baseline working model
+            </ul>
+            <ul align=left>
+                Train/Test split
+            </ul>
+            <ul align=left>
+                Identify Scoring Metric:
+            </ul>
+            <ul align=left>
+                <ul align=left>
+                    Precision - of the fraud that our model pointed out was actually fraud
+                </ul>
+            </ul>
+            <ul align=left>
+                <ul align=left>
+                    Recall - of the fraud coming in was actually called out by out model
+                </ul>
+            </ul>
+            <ul align=left>
+                <ul align=left>
+                    F1 score - combines the precision and recall scores
+                </ul>
+            </ul>
+            <ul align=left>
+                Pursue alternative models:
+            </ul>
+            <ul align=left>
+                <ul align=left>
+                    SVC, adaboost, random forest, mlp neural net
+                </ul>
+            </ul>
+            <ul align=left>
+                <ul align=left>
+                    Gridsearch best hyper-parameters
+                </ul>
+            </ul>
+            <ul align=left>
+                <ul align=left>
+                    Potentially ensemble models to prevent over-fitting
+                </ul>
+            </ul></h4>
+
+            <h3 align=left>
+                Business Insight:
+            </h3>
+            <h4><ul align=left>
+                Identifying financial losses
+            </ul>
+            <ul align=left>
+                Developing profit curve
+            </ul>
+            <ul align=left>
+                Confusion Matrix
+            </ul></h4>
+
+            <h3 align=left>App Development:</h3>
+            <h4><ul align=left>
+                Set up AWS server
+            </ul>
+            <ul align=left>
+                Build app
+            </ul>
+            <ul align=left>
+                Deploy app
+            </ul></h4>
+
+
+            <h3 align=left><u>Tasks</u></h3>
+            <h4><ul align=left>
+                Taylor: Setting up a Simple Model / Deploying Web Application
+            </ul>
+            <ul align=left>
+                Jan: Feature Engineering / Cleaning the Data
+            </ul>
+            <ul align=left>
+                Rob: Visualizations / EDA / Web Application
+            </ul>
+            <ul align=left>
+                Gretchen: Profit Curve / Web Application
+            </ul>
+            <ul align=left>
+                Scott: NLP / Project Coordination
+            </ul>
+            <ul align=left>
+                Everyone: Creating an Optimized Model
+            </ul>
+
+      </div>
+
+    </div>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="/static/js/jquery.min.js"><\/script>')</script>
+    <script src="/static/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="/static/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
