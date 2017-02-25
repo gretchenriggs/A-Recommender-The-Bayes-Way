@@ -1,4 +1,4 @@
-<img src='images/Fraud-Stamp-Letters.jpg' alt='Fraud Stamp Letters' height='50%' width='50%' align=middle >
+<img src='images/Fraud-Stamp-Letters.jpg' alt='Fraud Stamp Letters' height='50%' width='50%' align="middle">
 
 ## A Series of Fortuanate Fraud Detection
 We modeled a Fraud Detection Classifier that could detect fraudulent activity for an Event Ticket Sales company.
