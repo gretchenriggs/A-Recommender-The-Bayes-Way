@@ -1,3 +1,5 @@
+<img src='images/Fraud-Stamp-Letters.jpg'>
+
 ## A Series of Fortuanate Fraud Detection
 We modeled a Fraud Detection Classifier that could detect fraudulent activity for an Event Ticket Sales company.
 
